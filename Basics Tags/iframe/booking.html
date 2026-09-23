@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tour Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f5;
+            padding: 15px;
+        }
+        form {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            max-width: 300px;
+        }
+        label { display: block; margin-top: 10px; font-size: 14px; }
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            margin-top: 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Book Your Tour</h3>
+    <form onsubmit="alert('Form submitted inside iframe!'); return false;">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required placeholder="John Doe">
+
+        <label for="tickets">Number of Tickets:</label>
+        <select id="tickets">
+            <option>1 Ticket</option>
+            <option>2 Tickets</option>
+            <option>3+ Tickets</option>
+        </select>
+
+        <button type="submit">Submit Request</button>
+    </form>
+</body>
+</html>

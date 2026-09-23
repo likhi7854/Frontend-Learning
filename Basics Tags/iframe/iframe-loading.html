@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Loading</title>
+</head>
+<body>
+    <h1>Iframe Loading</h1>
+    <h3> loading="lazy" </h3><br>
+    <p>The iframe content is loaded only when it is close to becoming visible on the screen.</p>
+    <iframe src="my-dream-list.html" width="600" height="400" title="My Dream List" loading="lazy">
+    </iframe>
+    <h3> loading="eager" </h3><br>
+    <p>The iframe content is loaded as soon as the main page is loaded.</p>
+    <iframe src="gallery.html" width="600" height="400" title="Gallery" loading="eager" allowfullscreen>
+    </iframe>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Overview Document</title>
+  <style>
+    @page { size: A4; margin: 20mm; }
+    body { font-family: Arial, sans-serif; color: #333; line-height: 1.6; background-color: #f4f4f9; margin: 0; padding: 20px; }
+    .pdf-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    h1 { color: #f7df1e; background-color: #323330; padding: 10px; border-radius: 4px; margin-top: 0; }
+    h2 { color: #202124; margin-top: 20px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .code-box { background-color: #282c34; color: #abb2bf; padding: 12px 16px; border-radius: 6px; font-family: monospace; font-size: 14px; overflow-x: auto; }
+    .footer { margin-top: 40px; padding-top: 10px; border-top: 1px solid #e0e0e0; text-align: center; font-size: 12px; color: #777; }
+    @media print { body { background-color: #fff; padding: 0; } .pdf-container { box-shadow: none; padding: 0; width: 100%; } }
+  </style>
+</head>
+<body>
+
+  <div class="pdf-container">
+    <h1>JavaScript (JS) Overview</h1>
+
+    <h2>Core Concepts</h2>
+    <p>JavaScript is a high-level, dynamic programming language that enables interactive web features, client-side logic, and asynchronous data operations.</p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li><strong>DOM Manipulation:</strong> Dynamically access and modify HTML elements and CSS styles.</li>
+      <li><strong>Event Handling:</strong> Listens and responds to user actions like clicks, keyboard inputs, and scrolling.</li>
+      <li><strong>Asynchronous Programming:</strong> Uses Promises and <code>async/await</code> to fetch remote data without blocking the browser.</li>
+    </ul>
+
+    <h2>Basic Script Example</h2>
+    <div class="code-box">
+      // Function declaration<br>
+      function greetUser(name) {<br>
+      &nbsp;&nbsp;return `Hello, ${name}!`;<br>
+      }<br><br>
+      // Event Listener Example<br>
+      const button = document.querySelector('#myBtn');<br>
+      button.addEventListener('click', () =&gt; {<br>
+      &nbsp;&nbsp;console.log(greetUser('Developer'));<br>
+      });
+    </div>
+
+    <div class="footer">
+      JavaScript Reference Document
+    </div>
+  </div>
+
+</body>
+</html>
