@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Preference Form</title>
+</head>
+<body>
+    <h1>Course Preference Form</h1>
+    <form  method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="course">Preferred Course:</label><br>
+        <select id="course" name="course">
+            <option value="">Select a course</option>
+            <option value="JAVA">JAVA</option>
+            <option value="PYTHON">PYTHON</option>
+            <option value="WEB DEVELOPMENT">Web Development</option>
+            <option value="DATA SCIENCE">Data Science</option>
+        </select><br><br>
+
+        <label for="comments">Why do you want to learn this course?</label><br>
+        <textarea id = "comments" name = "comments" rows = "20" cols = "50" placeholder = "Enter your comments here"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+</body>
+</html>
