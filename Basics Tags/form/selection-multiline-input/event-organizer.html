@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Organizer Form</title>
+</head>
+<body>
+    <h1>Event Organizer Form</h1>
+    <form>
+        <label for = "name" >Event Name :</label>
+        <input type="text" id ="name" required name="n" >
+        <br><br>
+        <label for = "web" > Event Website :</label>
+        <input type="url" id ="web" required name="w" >
+        <br><br>
+        <label for = "num" > Number of participants :</label>
+        <input type="number" id ="num" required name="np" min =10 max = 200 >
+        <br><br>
+        <label for = "date" > Event date :</label>
+        <input type="date" id ="date" required name="g" >
+        <br><br>
+        <label for = "week" > Event week :</label>
+        <input type="week" id ="week" required name="w" >
+        <br><br>
+        <label for = "time" >Start time :</label>
+        <input type="time" id ="time" required name="c" >
+        <br><br>
+        <label for = "poster" >Event poster :</label>
+        <input type="file" id ="poster " required name="r" >
+        <br><br>
+        <label for = "col" > Event theme color :</label>
+        <input type="color" id ="col" required name="fc" >
+        <br><br>
+        <label for = "description" >Event description :</label>
+        <br><br>
+        <textarea name ="description " rows="10" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

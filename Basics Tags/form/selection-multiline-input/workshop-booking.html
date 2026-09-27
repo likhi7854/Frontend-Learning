@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop </title>
+</head>
+<body>
+    <h1>Workshop Booking Form </h1>
+    <form method="post">
+         <label for = "name">Participant name: </label>
+         <input type="text" id = "name" name = "n">
+         <br><br>
+         <label for = "dob">Date of birth: </label>
+         <input type="date" id = "dob" name ="dob">
+         <br><br>
+         <label for ="da">Workshop date: </label>
+         <input type="date" id = "da" name = "d">
+         <br><br>
+         <label for ="time">Preferred time</label>
+         <input type="time" id = "time" name = "t">
+         <br><br>
+         <label>workshop type </label>
+         <select>
+            <option>--select--</option>
+            <option>Training & Skill-Building Workshops</option>
+            <option>Planning & Strategy Workshops</option>
+            <option>Process & Operational Improvement</option>
+            <option>Problem-Solving & Ideation</option>
+         </select>
+         <br><br>
+         <label for = "option">Online / Offline:  </label>
+         <input type="radio" name="op" id = "option" > Online
+         <input type="radio" name="op" id = "option">Offline 
+         <br><br>
+         <input type="submit" value="submit">
+
+
+    </form>
+</body>
+</html>
