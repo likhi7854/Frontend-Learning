@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Job Application Form</title>
+</head>
+<body>
+    <h1>Online Job Application Form </h1>
+    <p> </p>
+    <form>
+        <label for = "name" >Full Name :</label>
+        <input type="text" id ="name" required name="n" >
+        <br><br>
+        <label for = "email" >Email :</label>
+        <input type="email" id = "email" required name = "e">
+        <br><br>
+        <label for = "num" > Number of participants :</label>
+        <input type="number" id ="num" required name="np" min =10 max = 200 >
+        <br><br>
+        <label for = "date" > Event date :</label>
+        <input type="date" id ="date" required name="g" >
+        <br><br>
+        <label for = "web" >Portfolio  :</label>
+        <input type="url" id ="web" required name="w" >
+        <br><br>
+        <label for = "wb" >Resume :</label>
+        <input type="file" id ="wb" required name="web" >
+        <br><br>
+        <label for = "exp">Experience in years </label>
+         <input type="number" id ="exp" required name="np" min =0 max = 20 >
+        <br><br>
+        <label for = "week" > Available week :</label>
+        <input type="week" id ="week" required name="w" >
+        <br><br>
+        <label for = "time" >Preferred interview time: </label>
+        <input type="time" id ="time" required name="c" >
+        <br><br>
+        <select>
+            <option>Web Developer </option>
+            <option>Software developer </option>
+            <option>Prompt Engineering </option>
+            <option>Frontent developer </option>
+            <option>backend Developer</option>
+        </select>
+        <br><br>
+        <label for = "work">Work mode: </label><br><br>
+        <input type="radio" name = "wm" id="work">Office <br><br>
+        <input type="radio" name = "wm" id="work">Hybrid <br><br>
+        <input type="radio" name = "wm" id="work">Remote <br><br>
+        <label for = "skills" >Skills :</label>
+        <select>
+            <option>JAVA</option>
+            <option>SQL</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Python</option>
+        </select>
+        <br><br>
+        <label> About Yourself :</label><br><br>
+        <textarea name = "ay" rows="20" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+  
+</body>
+</html>
