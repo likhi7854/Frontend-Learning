@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Full Stack Learning Portal</title>
+</head>
+<body>
+    <h1>Java Full Stack Learning Portal</h1>
+    <p>A Java Full Stack Learning Portal provides a structured learning path covering both frontend and backend technologies, along with database management, version control, and cloud deployment.</p>
+    <h2>Course Introduction</h2>
+    <p>Welcome to the Java Full Stack Course! This course is designed to provide you with a comprehensive understanding of Java programming and full stack development. Throughout the course, you will learn how to build dynamic web applications using Java, along with front-end technologies such as HTML, CSS, and JavaScript.</p>
+    <p>In this course, you will gain hands-on experience in developing web applications, working with databases, and implementing server-side logic using Java frameworks. You will also learn about RESTful APIs, authentication, and deployment of web applications.</p>
+    <p>By the end of this course, you will have the skills and knowledge to create robust and scalable web applications using Java and related technologies. Whether you are a beginner or an experienced developer looking to enhance your skills, this course will provide you with the necessary tools to succeed in the world of full stack development.</p>
+    <figure>    
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgcnXxdT8VJNfeDhW2BktDsOw-Y-K7WCck8xGNyZjK2w&s=10.png" alt="course logo" width="200" height ="200">
+        <figcaption>Full Stack Course </figcaption>
+    </figure>
+    
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS </li>
+        <li>sql</li>
+        <li>Python</li>
+    </ul>
+    <h2>Registration form</h2>
+    <form method="post" action="registration.html">
+        <label for = "name" >Student Name :</label>
+        <input type="text" id ="name" required name="n" >
+        <br><br>
+        <label for = "email" >Email :</label>
+        <input type="email" id = "email" required name = "e">
+        <br><br>
+        <label for = "date" > Date Of Birth :</label>
+        <input type="date" id ="date" required name="g" >
+        <br><br>
+        <label>Courses :</label>
+        <br><br>
+        <select>
+            <option>--select--</option>
+            <option>JAVA</option>
+            <option>HTML </option>
+            <option>CSS </option>
+            <option>JAVA SPRING  </option>
+            <option>SQL </option>
+            <option>JDBC</option>
+        </select>
+        <br><br>
+        <label for = "work">Learning mode: </label><br><br>
+        <input type="radio" name = "wm" id="workON">Online <br><br>
+        <input type="radio" name = "wm" id="workOFF">Offline<br><br>
+        <label for = "ti">Topics interested  </label><br><br>
+        <input type="checkbox" id = "java" name = "java">JAVA<br><br>
+        <input type="checkbox" id = "sql" name = "sql">SQL<br><br>
+        <input type="checkbox" id = "html" name = "html">HTML<br><br>
+        <input type="checkbox" id = "css" name = "css">CSS<br><br>
+        <input type="checkbox" id = "python" name = "python">PYTHON<br><br>
+        <label for = "web" >Portfolio/Github  :</label>
+        <input type="url" id ="web" required name="w" >
+        <br><br>
+         <label for = "time" >Preferred Study time: </label>
+        <input type="time" id ="time" required name="c" >
+        <br><br>
+        <label for = "week" > Available week :</label>
+        <input type="week" id ="week" required name="w" >
+        <br><br>    
+        <label for = "skills" >Skills :</label>
+        <select id = "course" name = "course">
+            <option>--select--</option>
+            <option>JAVA</option>
+            <option>SQL</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>PYTHON</option>
+        </select>
+        <br><br>
+         <label for = "wb" >Resume :</label>
+        <input type="file" id ="wb" required name="web" >
+        <br><br>
+        <label> Learning goals :</label><br><br>
+        <textarea name = "ay" rows="20" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>

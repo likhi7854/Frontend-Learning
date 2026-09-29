@@ -21,16 +21,16 @@
         <input type = "radio" name = "rm" id="rec">Yes <br><br>
         <input type="radio" name="rm" id = "rec">No 
         <br><br>
+        <label for = "rating">Rating of the movie :</label>
+        <input type="number" name="nm" id = "rating" min="0" max ="10">
+        <br><br>
         <label for = "su">Services used :</label>
-        <select> 
-            <option>--select--</option>
-            <option>Water </option>
-            <option>Food </option>
-            <option> cleaning </option>
-        </select>
+        <input type="checkbox" id = "water" name = "w">WATER<br><br>
+        <input type="checkbox" id = "FOOD" name = "w">FOOD<br><br>
+        <input type="checkbox" id = "clealyness" name = "w">CLEAN
         <br><br>
         <label for = "fb" >Feed Back </label>
-        <textarea rows="20" cols="30" name = "feed" id="fb"></textarea>
+        <textarea rows="20" cols="30" name = "feed" id="fb" minlength="10" maxlength="100"></textarea>
         <br><br>
         <input type="submit" value="register ">
         <br><br>
