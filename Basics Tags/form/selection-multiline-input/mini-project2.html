@@ -36,9 +36,9 @@
         <label for = "date" > Date Of Birth :</label>
         <input type="date" id ="date" required name="g" >
         <br><br>
-        <label>Courses :</label>
+        <label for = "course">Courses :</label>
         <br><br>
-        <select>
+        <select id="course" name = "course">
             <option>--select--</option>
             <option>JAVA</option>
             <option>HTML </option>
@@ -48,15 +48,15 @@
             <option>JDBC</option>
         </select>
         <br><br>
-        <label for = "work">Learning mode: </label><br><br>
-        <input type="radio" name = "wm" id="workON">Online <br><br>
-        <input type="radio" name = "wm" id="workOFF">Offline<br><br>
+        <label for = "mode">Learning mode: </label><br><br>
+        <input type="radio" name = "mode" id="mode">Online <br><br>
+        <input type="radio" name = "mode" id="workOFF">Offline<br><br>
         <label for = "ti">Topics interested  </label><br><br>
-        <input type="checkbox" id = "java" name = "java">JAVA<br><br>
-        <input type="checkbox" id = "sql" name = "sql">SQL<br><br>
-        <input type="checkbox" id = "html" name = "html">HTML<br><br>
-        <input type="checkbox" id = "css" name = "css">CSS<br><br>
-        <input type="checkbox" id = "python" name = "python">PYTHON<br><br>
+        <input type="checkbox" id = "java" name = "topics">JAVA<br><br>
+        <input type="checkbox" id = "sql" name = "topics">SQL<br><br>
+        <input type="checkbox" id = "html" name = "topics">HTML<br><br>
+        <input type="checkbox" id = "css" name = "topics">CSS<br><br>
+        <input type="checkbox" id = "python" name = "topics">PYTHON<br><br>
         <label for = "web" >Portfolio/Github  :</label>
         <input type="url" id ="web" required name="w" >
         <br><br>
@@ -67,7 +67,7 @@
         <input type="week" id ="week" required name="w" >
         <br><br>    
         <label for = "skills" >Skills :</label>
-        <select id = "course" name = "course">
+        <select id = "skills" name = "skills">
             <option>--select--</option>
             <option>JAVA</option>
             <option>SQL</option>
@@ -76,8 +76,8 @@
             <option>PYTHON</option>
         </select>
         <br><br>
-         <label for = "wb" >Resume :</label>
-        <input type="file" id ="wb" required name="web" >
+         <label for = "resume" >Resume :</label>
+        <input type="file" id ="resume" required name="resume" >
         <br><br>
         <label> Learning goals :</label><br><br>
         <textarea name = "ay" rows="20" cols="30"></textarea>
