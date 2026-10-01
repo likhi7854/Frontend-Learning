@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Learning Portal</title>
+    <style>
+        h2 {
+            color: green;
+        }
+        p{
+            color: black;
+        }
+    </style>
+    <link href="portal.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="color: blue">Welcome to the Frontend Learning Portal</h1>
+    <p>This portal is designed to help you learn frontend development technologies such as HTML, CSS, and JavaScript. You can find various resources, tutorials, and examples to enhance your skills.</p>
+    <h2>Course Topics:</h2>  
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Angular</li>
+        <li>React</li>
+    </ol>
+    <h2>Technologies used:</h2>
+    <ul>
+        <li>vscode</li>
+        <li>intellij</li>
+        <li>chrome</li>
+    </ul>
+    <h2>Schedule :</h2>
+    <table border="1" rules = "all">
+        <tbody>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Topic</th>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>10:00 AM - 12:00 PM</td>
+                <td>HTML Basics</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>CSS Fundamentals</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>JavaScript Essentials</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <figure>
+        <figcaption>Frontend Learning Portal</figcaption>
+        <img src="https://www.fita.in/wp-content/uploads/2023/07/Front-End-Development.jpg" width="400" height="300">
+    </figure>
+    <iframe src="course-information.html" width="600" height="100" title="Course Information"></iframe>
+    <br><br>
+    <form  method="post">
+          <label for="course">Select your preferred course:</label><br><br>
+        <input type="checkbox" id="html" name="courses" value="html" required>HTML<br><br>
+        <input type="checkbox" id="css" name="courses" value="css" required>CSS<br><br>
+        <input type="checkbox" id="javascript" name="courses" value="javascript" required>JavaScript<br><br>
+        <input type="checkbox" id="angular" name="courses" value="angular" required>Angular<br><br>
+        <input type="checkbox" id="react" name="courses" value="react" required>React<br><br>
+        <label for="level">Select level:</label>
+        <select name="level" id="level">
+            <option value="">Select a level</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        <br><br>
+        <label for ="mode">Learning Preference:</label><br><br>
+        <input type="radio" id="online" name="mode" value="online"> Online<br><br>
+        <input type="radio" id="offline" name="mode" value="offline"> Offline<br><br>
+        <label for="feedback">Feedback:</label><br><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback here..."></textarea><br><br>
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+table{
+    background-color: #d17272;
+}
+label
+{
+    color:#b40a0a ;
+}
+form
+{
+    Background-color: #65bee7bc;
+}
+input[type ="submit"]
+{
+    color: rgb(115, 59, 210);
+}
+ol
+{
+    COLOR: hsl(203, 89%, 37%);
+}
+ul
+{
+    color: rgb(249, 125, 103);
+}
+body
+{
+    background-color: hwb(322 74% 4% / 0.717);
+}
