@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration - Java Full Stack Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form>
+        <p>
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </p>
+
+        <p>
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="java">Java</option>
+                <option value="web">Web Development</option>
+                <option value="database">Database</option>
+                <option value="fullstack">Full Stack</option>
+            </select>
+        </p>
+        <p>
+            <label>Learning Mode:</label>
+            <input type="radio" id="online"  name="learningMode"   value="online">
+            <label for="online">Online</label>
+
+            <input type="radio"
+                   id="offline"
+                   name="learningMode"
+                   value="offline">
+
+            <label for="offline">Offline</label>
+        </p>
+
+        <p>
+            <label>Skills:</label>
+
+            <input type="checkbox"
+                   id="java"
+                   name="skills"
+                   value="java">
+
+            <label for="java">Java</label>
+
+            <input type="checkbox"
+                   id="html"
+                   name="skills"
+                   value="html">
+
+            <label for="html">HTML</label>
+
+            <input type="checkbox"
+                   id="css"
+                   name="skills"
+                   value="css">
+
+            <label for="css">CSS</label>
+
+            <input type="checkbox"
+                   id="sql"
+                   name="skills"
+                   value="sql">
+
+            <label for="sql">SQL</label>
+        </p>
+
+        <p>
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="preferredTime">
+        </p>
+
+        <p>
+            <label for="portfolio">Portfolio URL:</label>
+            <input type="url" id="portfolio" name="portfolio">
+        </p>
+
+        <p>
+            <label for="about">About Yourself:</label>
+            <textarea id="about" name="about"></textarea>
+        </p>
+
+        <p>
+            <button type="submit"
+                    style="color: white; background-color: green;">
+                Submit
+            </button>
+        </p>
+    </form>
+    <p>
+        <a href="index.html">Back to Home</a>
+    </p>
+
+</body>
+
+</html>
+

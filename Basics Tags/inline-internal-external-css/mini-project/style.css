@@ -1,0 +1,55 @@
+body {
+    background-color: lightyellow;
+    color: darkgreen;
+}
+
+h1 {
+    color: darkblue;
+    background-color: lightgreen;
+}
+
+h2 {
+    color: darkred;
+}
+
+table {
+    background-color: white;
+    color: black;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+td {
+    background-color: lightblue;
+}
+
+p {
+    color: darkgreen;
+}
+
+form {
+    background-color: lightcyan;
+}
+
+label {
+    color: darkblue;
+}
+
+input {
+    background-color: white;
+}
+
+select {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
+
+a {
+    color: darkred;
+}
