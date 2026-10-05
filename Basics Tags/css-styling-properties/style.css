@@ -1,0 +1,45 @@
+DIV
+{
+    BORDER: 5px solid black;
+    background-color: black;
+    background-image :url("https://www.printique.com/wp-content/uploads/2019/05/photos-to-take-on-road-trip-1.jpg?width=1400");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-decoration-thickness: 10PX;
+    FONT-WEIGHT: bold;
+}
+figcaption
+{
+    
+    color: rgb(16, 15, 18);
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    FONT-SIZE: 20PX;
+    FONT-STYLE: italic;
+}
+image
+{
+    border : 50px solid black;
+
+}
+h1
+{
+    TEXT-TRANSFORM: uppercase;
+    TEXT-DECORATION: underline;
+    color:black;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+h2
+{
+    TEXT-TRANSFORM: uppercase;
+    TEXT-DECORATION: underline;
+    color: rgb(18, 9, 135);
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+BODY
+{
+    background-color: rgb(216, 124, 210);
+}
