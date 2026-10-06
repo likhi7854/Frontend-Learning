@@ -1,0 +1,45 @@
+body
+{
+    background-color: #cbaeae;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+
+}
+h1
+{  
+    TEXT-TRANSFORM: uppercase;
+    color:rgb(179, 8, 8);
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrTMyLOY2Dc9G59xGfXcnI-hEH7523Ds4H6F7B-gv5Q&s=10");
+    color: transparent;
+    background-clip: TEXT;
+    font-family: "Times New Roman", Times, serif;
+}
+p
+{
+    color: rgb(18, 9, 135);
+    font-family: "Times New Roman", Times, serif;
+}
+textarea
+{
+    background-color: rgb(216, 124, 210);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrTMyLOY2Dc9G59xGfXcnI-hEH7523Ds4H6F7B-gv5Q&s=10");
+    color: rgb(221, 225, 227);
+    background-clip: padding-box;
+    
+}
+form
+{
+    background-color: rgb(216, 124, 210);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrTMyLOY2Dc9G59xGfXcnI-hEH7523Ds4H6F7B-gv5Q&s=10");
+    color: rgb(221, 225, 227);
+    background-clip: padding-box;
+}
+LABEL
+{
+    background-color: rgb(216, 124, 210);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrTMyLOY2Dc9G59xGfXcnI-hEH7523Ds4H6F7B-gv5Q&s=10");
+    color: hwb(240 99% 0%);
+    background-clip: padding-box;
+}
