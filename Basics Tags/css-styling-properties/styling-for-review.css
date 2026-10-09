@@ -1,0 +1,35 @@
+div
+{
+    background-color: #f7c2c2;
+    border : 5px solid black;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjgxNS10YW5nLTI3YV8xLmpwZw.jpg");
+}
+h1
+{
+    text-align: center;
+    color: rgb(12, 176, 246);
+    text-transform:uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow:2px 2px 2px  blue ;
+}
+h3
+{
+      text-align: center;
+      text-decoration-line: underline;
+      color: rgb(224, 33, 7);
+}
+body
+{
+    background-clip: border-box;
+    background-image:url("https://t4.ftcdn.net/jpg/12/48/33/45/360_F_1248334528_hk49yJMuvTjCSJDgJ6wJi64Wxg6tDCVb.jpg");
+}
+img
+{
+     border : 2px solid black;
+     padding: 4px;
+}
+h2
+{
+    font-style: italic;
+    color: rgb(217, 0, 255);
+}
