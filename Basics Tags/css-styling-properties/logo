@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Logo</title>
+		<style>
+		   #logo{
+		           background-color:#5d97f5;
+				    margin: 0;
+					height :200px;
+				    width : 200px;
+				    border-radius:10px;
+		   }
+		   body{
+		        margin: 300;
+      
+		   }
+		   #space{
+		       padding : 100px 
+		   }
+		  
+		    p{
+			     font-size:300px;
+				 color:white;
+				 text-align:center;
+				 background-clip:text;
+				 margin: 250px auto;
+				 font-family: Arial, sans-serif;
+				 
+				
+			}
+			#box{
+			    height :150px;
+				width : 150px;
+				border-top: 10px solid green;
+				border-bottom : 10px solid green;
+				border-left:10px solid red;
+				border-right:10px solid red;
+				border-top-right-radius:20px;
+				border-bottom-left-radius:20px;
+				
+			}
+			#circle{
+			    margin-top : 40px ;
+			    height :150px;
+				width : 150px;
+				border-top: 10px solid green;
+				border-bottom : 10px solid green;
+				border-left:10px solid red;
+				border-right:10px solid red;
+				border-top-right-radius:100px;
+				border-bottom-left-radius:100px; 
+				border-top-left-radius:100px;
+				border-bottom-right-radius:100px; 
+			}
+		</style>
+	</head>
+	<body>
+	      
+			<div id = "logo">
+				<p>f</p>
+			</div>
+			<div id = "space" ></div>
+			<div id = "box"></div>
+			<div id = "circle"></div>
+			<div id = "spac" ></div>
+	</body>
+</html>
