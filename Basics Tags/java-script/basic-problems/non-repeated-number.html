@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>js Non repeated  Numbers  </title>
+	</head>
+	<body>
+	    <script>	
+		
+			 var  arr=[];
+			 var n = parseInt(prompt("Enter the size of the array "))
+			 for(var i=0;i<n;i++){
+			     arr[i] = parseInt(prompt("enter the Number :"));
+			 }
+			 document.write("Array elements :"+arr)
+			 
+			 for(var i=0;i<n;i++){
+			    var count =0;
+			    for(var j= 0;j<n;j++){
+				    if(arr[i]===arr[j]){
+					    count++;
+					}
+				}
+			    if(count===1){
+				    document.write("<br>"+arr[i])
+				}
+			 }
+			 
+			
+		
+		</script>
+	</body>
+</html>

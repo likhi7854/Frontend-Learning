@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>js recursion  </title>
+	</head>
+	<body>
+	    <script>
+		 
+			  function sumOfDigit(n){
+			       if(n==0){
+				      return 0; 
+				   }
+				   return (n%10)+ sumOfDigit(Math.floor(n/10));				
+			  }
+			  var n = parseInt(prompt("enter the number :"));
+			  document.write("sum of the digits is :"+sumOfDigit(n));
+		</script>
+	</body>
+</html>

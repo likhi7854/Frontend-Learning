@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>js recursion  </title>
+	</head>
+	<body>
+	    <script>	
+			  function palindrome(n,pal=0){
+			       
+			       if(n==0){
+				      return pal; 
+				   }
+				   pal = pal*10+n%10
+				   return palindrome(Math.floor(n/10),pal);				
+			  }
+			  var n = parseInt(prompt("enter the number :"));
+			  if(n==palindrome(n)){
+			      document.write("given number is palindrome");
+			  }
+			  else{
+			       document.write("Given number is not a palindrome ")
+			  }
+		</script>
+	</body>
+</html>

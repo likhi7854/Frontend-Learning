@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>js Second max   </title>
+	</head>
+	<body>
+	    <script>	
+		
+			 var  arr=[];
+			 var n = parseInt(prompt("Enter the size of the array "))
+			 for(var i=0;i<n;i++){
+			     arr[i] = parseInt(prompt("enter the Number :"));
+			 }
+			 document.write("Array elements :"+arr)
+			 var max = -Infinity;;
+			 var secMax = -Infinity ;
+			 for(var i=0;i<n;i++){
+			     if(arr[i]>max){
+				     secMax = max;
+					 max = arr[i];
+				 }
+				 if(arr[i]>=secMax && arr[i]!=max){
+				       secMax = arr[i];
+				 }
+			 }
+			 document.write("Maximum Number :"+max)
+
+			  if (secMax === -Infinity) {
+                 document.write("Second maximum does not exist");
+			 } else {
+					 document.write("<br>Second Maximum :"+secMax)
+			}
+			
+		
+		</script>
+	</body>
+</html>

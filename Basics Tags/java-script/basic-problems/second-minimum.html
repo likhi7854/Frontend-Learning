@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>js second Min  </title>
+	</head>
+	<body>
+	    <script>	
+		
+			 var  arr=[];
+			 var n = parseInt(prompt("Enter the size of the array "))
+			 for(var i=0;i<n;i++){
+			     arr[i] = parseInt(prompt("enter the Number :"));
+			 }
+			 document.write("Array elements :"+arr)
+			 var min = Infinity;;
+			 var secMin = Infinity ;
+			 for(var i=0;i<n;i++){
+			     if(arr[i]<min){
+				     secMin = min;
+					 min = arr[i];
+				 }
+				 if(arr[i]<secMin && arr[i]!=min){
+				       secMin = arr[i];
+				 }
+			 }
+			 document.write("<br>Minimum Number :"+min)
+
+			  if (secMin === Infinity) {
+                 document.write("<br>Second minimum does not exist");
+			 } else {
+					 document.write("<br>Second Minimum :"+secMin)
+			}
+			
+		
+		</script>
+	</body>
+</html>     

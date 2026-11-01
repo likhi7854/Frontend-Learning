@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>js function </title>
+	</head>
+	<body>
+	    <script>
+		      function circle(a){
+			        let area = 3.14*a*a
+					let perimeter = 2*3.14*a
+					var choice  = parseInt(prompt("Enter the choice \n 1.Area \n 2.perimeter "))
+				    if(choice==1){
+					     document.write("Area of the circle  :",area)
+					}
+					else if(choice==2){
+					    document.write("<br>perimeter of the circle :",perimeter)
+					}
+					else{
+					   alert("<br>Invalid choice ")
+					}
+			   }
+			   function square(a){
+			        let area = a*a;
+					let perimeter = 4*a;
+					var choice  = parseInt(prompt("Enter the choice \n 1.Area \n 2.perimeter "))
+				    if(choice==1){
+					     document.write("Area  of the square :"+area)
+					}
+					else if(choice==2){
+					    document.write("<br>perimeter of the square :"+perimeter)
+					}
+					else{
+					   alert("<br>Invalid choice ")
+					}
+			   }
+			   
+			   var choice  = parseInt(prompt("Enter the choice \n 1.Circle \n 2.Square "))
+			   if(choice ==1){
+			         var a = parseInt(prompt("Enter the Value :"))
+			         circle(a)
+			   }
+			   else if(choice==2){
+			         var a = parseInt(prompt("Enter the Value :"))
+			         square(a)
+			   }
+			   else{
+			         document.write("Invalid choice ")
+			   }
+		</script>
+	</body>
+</html>
