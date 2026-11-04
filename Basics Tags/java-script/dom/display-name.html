@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+		<title>display your name</title> 
+	</head>
+	<body>
+        <p id = "name"> </p>
+        <button type = "button"  value = "display your name"  onclick = "displayName()">Display your name</button>
+	    <script>	
+            function displayName() {
+                    var name = prompt("Please enter your name");
+                    document.getElementById("name").innerHTML = "Hello " + name + "!";
+            }
+		</script>
+	</body>
+</html>--

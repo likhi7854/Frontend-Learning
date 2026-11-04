@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Additional result</title> 
+	</head>
+	<body>
+        a : <input type = "number"  value = "Enter the number 1" id = "a">
+        b : <input type = "number"  value = "Enter the number 2" id = "b">
+
+        <button type = "button"  value = "addition"  id = "addButton" onclick = "displayName()">Add</button>
+	    <script>	
+            function displayName() {
+                    var a = parseInt(document.getElementById("a").value);
+                    var b = parseInt(document.getElementById("b").value);
+                    var c = a+b;
+                    document.getElementById("addButton").innerHTML = "The sum of " + a + " and " + b + " is: " + c;
+            }
+		</script>
+	</body>
+</html>

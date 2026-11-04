@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title> startStop </title> 
+	</head>
+	<body>
+	    <input type = "button"  value = "start"  onclick = "startTask()">
+		<input type = "button"  value = "stop"  onclick = "endTask()">
+		<input type = "button"  value = "pause"  onclick = "pauseTask()">
+	    <script>	
+				var i=1;
+				var n;
+				function startTask(){
+				     n = setInterval(data,1000);
+					 function data(){
+					    console.log(i);
+						i++;
+					 }
+				}
+				function endTask(){
+				     clearInterval(n);
+					 console.log("<br> End....")
+					 i=1;
+				}
+				function pauseTask(){
+				    clearInterval(n);
+					 console.log("<br> Pause....")
+				}
+	       	
+		
+		</script>
+	</body>
+</html>

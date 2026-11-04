@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Change heading text </title> 
+	</head>
+	<body>
+	    <h1 id="h">Original Heading Text</h1>
+	    <input type = "button"  value = "Change Heading Text"  onclick = "changeHeadingText()">
+        <input type = "color"  value = "change the color" id = "color" onchange = "changeHeadingColor()">
+	    <script>	
+			function changeHeadingText() {
+
+                    document.getElementById("h").innerHTML = "Welcome to JavaScript";
+
+			}
+            function changeHeadingColor() {
+                var newColor = document.getElementById("color").value;
+                document.getElementById("h").style.color = newColor;
+            }
+		</script>
+	</body>
+</html>

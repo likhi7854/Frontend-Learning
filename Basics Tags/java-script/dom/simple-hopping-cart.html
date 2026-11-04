@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Additional result</title> 
+	</head>
+	<body>
+        <button type = "button"  value = "addition"  id = "addButton" onclick = "displayName()">Add to Cart</button>
+	    <script>	
+            function displayName() {
+                    var productName = prompt("Please enter your product name");
+                    var productPrice = parseFloat(prompt("Please enter your product price"));                    
+                    document.getElementById("addButton").innerHTML = " Product : " + productName + " <br>Price :" + productPrice + "<br>Added to cart successfully!!";
+            }
+		</script>
+	</body>
+</html>
